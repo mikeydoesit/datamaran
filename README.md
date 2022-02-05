@@ -35,10 +35,12 @@ Input->
 		"source4": 50
 	}
 ]
+
 `
 Output->
 
 `
+
 [
   {
 		"category": "Red",
@@ -57,11 +59,13 @@ Output->
 		"final_rank": 2
 	}
 ]
+
 `
 Example2:
 Input->
 
 `
+
 [
   {
 		"category": "cat1",
@@ -80,11 +84,13 @@ Input->
 		"src5": 100
 	}
 ]
+
 `
 
 Output->
 
 `
+
 [
   {
 		"category": "cat1",
@@ -105,6 +111,7 @@ Output->
 		"final_rank": 2
 	}
 ]
+
 `
 
 # Getting started
