@@ -17,7 +17,9 @@ Examples for rank calculations:
 Valid Inputs and outputs example in Json:
 Example1:
 Input->
-`[
+
+`
+[
   {
 		"category": "Red",
 		"source1": 20,
@@ -32,9 +34,12 @@ Input->
 		"source3": 40,
 		"source4": 50
 	}
-]`
+]
+`
 Output->
-`[
+
+`
+[
   {
 		"category": "Red",
 		"source1": 4,
@@ -51,10 +56,13 @@ Output->
 		"source4": 1,
 		"final_rank": 2
 	}
-]`
+]
+`
 Example2:
 Input->
-`[
+
+`
+[
   {
 		"category": "cat1",
 		"src1": 20,
@@ -71,9 +79,13 @@ Input->
 		"src4": 20,
 		"src5": 100
 	}
-]`
+]
+`
+
 Output->
-`[
+
+`
+[
   {
 		"category": "cat1",
 		"src1": 5,
@@ -92,7 +104,8 @@ Output->
 		"src5": 1,
 		"final_rank": 2
 	}
-]`
+]
+`
 
 # Getting started
 
